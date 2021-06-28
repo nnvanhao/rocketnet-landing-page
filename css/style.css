@@ -1,3 +1,5 @@
+@import url(content.css);
+
 :root {
     --darkgray: #212329;
     --brightred: #F8423D;
@@ -47,7 +49,7 @@
 }
 
 .nav-links {
-    color: white;
+    color: var(--white);
     text-decoration: none;
     font-size: 20px;
 }
@@ -141,6 +143,7 @@
         background-color: var(--brightred);
         color: var(--white);
         transition: all 0.4s ease-out;
+        border-bottom: 0;
     }
 
     .navbar {
